@@ -1,0 +1,68 @@
+i {
+    font-size: 26px;
+    color: #a7a7a7;
+}
+
+.heart {
+    color: #a7a7a7!important;
+}
+
+.small-icon {
+    font-size: 16px;
+    color: black;
+    margin-left: 4px;
+}
+
+.navbar-container {
+    width: 363px;
+    height: 100vh;
+    background-color: #000;
+    padding-top: 24px;
+
+    .navbar-links-container {
+        padding: 0 24px;
+
+        .navbar-links {
+
+            .create-playlist {
+                height: 24px;
+                width: 24px;
+                border-radius: 2px;
+                background-color: #a7a7a7;
+            }
+
+            .liked-songs {
+                height: 24px;
+                width: 24px;
+                border-radius: 2px;
+                background: linear-gradient(135deg,#450af5,#c4efd9);
+            }
+
+            .navbar-links-title {
+                font-family: GothamMedium, serif;
+                color: #a7a7a7;
+                font-size: 14px;
+                margin-block: auto;
+                letter-spacing: -0.3px;
+                cursor: pointer;
+
+                &:active {
+                    color: white;
+                }
+
+                &:hover {
+                    color: white;
+                    transition: 0.5s ease-in-out;
+                }
+            }
+
+            .navbar-links-paragraph {
+                font-family: GothamLight, serif;
+                color: #a7a7a7;
+                font-size: 10px;
+                cursor: pointer;
+
+            }
+        }
+    }
+}
