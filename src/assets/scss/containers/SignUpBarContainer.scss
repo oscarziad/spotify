@@ -31,5 +31,9 @@
         padding-right: 29px;
         padding-left: 29px;
         float: right;
+
+        &:hover {
+            transform: scale(1.04);
+        }
     }
 }

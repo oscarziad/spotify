@@ -1,0 +1,69 @@
+.webplayer-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.855) 0, #121212 100%);
+    padding: 0px 28px;
+    height: 958px;
+    overflow: scroll;
+
+    .webplayer-playlist {
+
+        .playlist-title {
+            font-family: GothamBold, serif;
+            font-size: 22px;
+            color: white;
+        }
+
+        .playlist-option {
+            margin: auto;
+            font-family: GothamBold, serif;
+            text-transform: uppercase;
+            text-align: right;
+            color: #B3B3B3;
+            font-size: 12px;
+        }
+    }
+
+    .playlist-row {
+        --bs-gutter-x: 0rem;
+        gap: 24px;
+
+        .playlist-card {
+            max-width: 200px;
+            margin-top: 22px;
+            padding: 16px;
+            background-color: #1a1a1a;
+            border-radius: 5px;
+
+            .playlist-image img {
+                width: 100%;
+                border-radius: 5px;
+                box-shadow: 0 8px 24px rgb(0 0 0 / 50%);
+            }
+
+            .play-button {
+                height: 48px;
+                width: 48px;
+                background-color: #1ed760;
+                border-radius: 50%;
+
+                i {
+                    color: black;
+                    font-size: 30px;
+                    padding-left: 8px;
+                }
+            }
+
+            .playlist-card-title {
+                margin-top: 20px;
+                color: white;
+                font-family: GothamBold, serif;
+                font-size: 15px;
+            }
+
+            .playlist-card-paragraph {
+                color: #a7a7a7;
+                font-family: GothamLight, serif;
+                font-size: 13px;
+            }
+        }
+    }
+}

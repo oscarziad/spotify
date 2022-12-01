@@ -1,0 +1,66 @@
+.header-container {
+    height: 65px;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+
+    .redirect-container {
+
+        gap: 15px;
+
+        .redirect-button {
+            height: 32px;
+            width: 32px;
+            border-radius: 50%;
+            border: none;
+            background-color: black;
+        }
+    }
+
+    .link-container {
+
+        text-align: right;
+
+        .links-menu {
+            font-family: GothamMedium, serif;
+            font-size: 16px;
+            color: #a7a7a7;
+            margin: auto;
+            margin-left: 8px;
+            margin-right: 8px;
+
+            &:hover {
+                color: white;
+                transform: scale(1.04);
+                transition: 0.05s ease-in-out;
+            }
+        }
+
+        .links-seperator {
+            color: white;
+            font-size: 23px;
+            font-weight: 100;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+
+    .signup-button {
+        font-family: GothamMedium, serif;
+        background-color: white;
+        color: black;
+        border: none;
+        border-radius: 500px;
+        text-align: center;
+        padding-top: 12px;
+        margin-right: 10px;
+        margin-left: 20px;
+        padding-bottom: 12px;
+        padding-right: 29px;
+        padding-left: 29px;
+        float: right;
+
+        &:hover {
+            transform: scale(1.04);
+        }
+    }
+}

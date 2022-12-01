@@ -14,8 +14,8 @@ i {
 }
 
 .navbar-container {
-    width: 363px;
-    height: 1023px;
+    height: 100%;
+    width: 100%;
     background-color: #000;
     padding-top: 24px;
 
@@ -69,5 +69,5 @@ i {
 }
 
 .navbar-links-info {
-    margin-top: 60vh;
+    margin: 32px 0;
 }
